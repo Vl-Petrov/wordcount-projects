@@ -1,0 +1,8 @@
+<h1>Counting words</h1>
+<h2>There are {{words}} words</h2>
+<h3>{{fulltext}}</h3>
+<p>{% for word, count in worddic %}
+    {{word}} : {{count}} <br />
+    {% endfor %}
+</p>
+<a href="/">START AGAIN</a>
